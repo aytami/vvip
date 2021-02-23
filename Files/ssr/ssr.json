@@ -1,0 +1,19 @@
+{
+    "server":"0.0.0.0",
+    "server_ipv6": "[::]",
+    "local_address":"127.0.0.1",
+    "local_port":1000,
+    "port_password":{
+/// END Client
+    },
+    "timeout":300,
+    "method":"aaaa",
+    "protocol": "bbbb",
+    "protocol_param": "",
+    "obfs": "cccc",
+    "obfs_param": "",
+    "redirect": "",
+    "dns_ipv6": false,
+    "fast_open": false,
+    "workers": 1
+}

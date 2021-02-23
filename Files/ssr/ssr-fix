@@ -1,0 +1,6 @@
+while true do
+	if [[ "$(netstat -ntulp | grep 'python' | wc -l)" == 0 ]]; then
+	systemctl start ssr
+fi
+sleep 5
+done
